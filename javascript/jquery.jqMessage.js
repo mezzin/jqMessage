@@ -6,8 +6,7 @@
  *   http://www.opensource.org/licenses/mit-license.php
  */
 
-(function($) {
-    
+(function($) {    
     var TRUE      = true,
         FALSE     = false,
         NULL      = null,
