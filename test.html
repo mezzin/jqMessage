@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title>jqMessage test page</title>
+	<link rel="stylesheet" type="text/css" href="stylesheet/errorstyles.css">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script type="text/javascript" src="javascript/jquery.jqMessage.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			//var message = new Array();
+			//message[
+			$("div.jqMessage").each(function(){
+				$(this).jqMessage($(this).attr("id"),"Demo "+$(this).attr("id") +" message");
+			});
+		});
+	</script>
+	<style>
+		body {
+			font-family: Verdana,Helvetica,Arial;
+		}	
+
+		div.all_message_block {
+			margin: 10px;
+		}	
+	</style>
+</head>
+<body>
+	<div class="jqMessage" id="error"></div>
+	<div class="jqMessage" id="warning"></div>
+	<div class="jqMessage" id="loading"></div>
+	<div class="jqMessage" id="success"></div>
+</body>
+</html>
+
