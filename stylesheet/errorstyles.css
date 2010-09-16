@@ -4,12 +4,12 @@ div.all_message_block {
     font-weight: bold;
     font-size: 14px;	
     font-weight: normal;
-	padding: 5px;
+    padding: 5px;
 }
 
 div.all_message_block ul {
-	padding: 0px 0px 0px 60px;
-	margin: 0px;
+    padding: 0px 0px 0px 60px;
+    margin: 0px;
 }
 
 div.all_message_block div.all_message_header {
