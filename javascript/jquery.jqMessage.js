@@ -1,6 +1,6 @@
 /*
  * jqMessage plugin
- * Copyright (c) 2010 Justin Kieft
+ * Copyright (c) 2010 Justin Kieft (mezzin)
  *
  * Licensed under the MIT license:
  *   http://www.opensource.org/licenses/mit-license.php
