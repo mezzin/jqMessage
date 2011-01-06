@@ -5,7 +5,8 @@
  * Licensed under the MIT license:
  *   http://www.opensource.org/licenses/mit-license.php
  */
-
+// TODO: add jquery ui classes
+// TODO: change the structuctor so it will wrap and not destroy
 (function($) {
     var TRUE = true,
     FALSE = false,
